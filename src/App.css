@@ -1,0 +1,64 @@
+#basic-nav-dropdown{
+  color: black;
+
+}
+
+#basic-nav-dropdown:hover{
+  color: #FF6A00;
+  
+}
+.topSecond{
+  border-top: 1px solid black !important;
+  color: black;
+}
+
+.head-text {
+  position: relative;
+}
+.text-on-image {
+ position: absolute;
+ /* right: 50%; */
+ /* left: 50%; */
+ bottom: 70%;
+ color: white;
+}
+
+.button-on-image{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.label{
+  margin-left: 15px;
+  border: 3px solid #dcdee3;
+  border-radius: 3px;
+  overflow: hidden;
+  flex: 1 1;
+}
+.card1:hover{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 5px 4px 5px #888888;
+}
+body{
+  background-color: rgb(252, 248, 248) !important;
+  font-family: Roboto, Helvetica, Tahoma, Arial, "Microsoft YaHei";
+}
+.a1{
+  text-decoration: none !important;
+  color: white !important;
+}
+.a1:hover{
+  text-decoration: underline !important;
+}
+*{
+  align-items: center !important;
+  align-content: center;
+  text-align: center;
+  /* color: black; */
+}
+.card1{
+  align-items: center !important;
+  align-content: center;
+  text-align: center;
+}
